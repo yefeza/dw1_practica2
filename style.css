@@ -3,12 +3,20 @@
     padding: 20px;
     text-align: center;
 }
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .container-contador{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh;
+    max-width: 50%;
 }
 
 .contador-value{
